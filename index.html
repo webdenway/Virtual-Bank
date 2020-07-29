@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Bank</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="container mt-5">
+        <div id="login-area">
+            <h2 class="text-center">Welcome to our Virtual Bank</h2>
+            <div class="form-area-style">
+                <h4>Login</h4>
+                <br>
+
+                <input type="email" name="" id="" placeholder="Enter email" class="form-control">
+                <br>
+                <input type="password" name="" id="" placeholder="Enter Password" class="form-control">
+                <br>
+                <button class="btn btn-success" id="login-enter">Enter</button>
+
+            </div>
+        </div>
+
+    </section>
+    <section class="container mt-5">
+        <div id="transaction-area">
+            <div class="row ">
+                <div class="col-md-4">
+                    <div class="show-deposit style-box">
+                        <h5>Deposit</h5>
+                        <h2>$<span>00</span></h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="show-withdraw style-box">
+                        <h5>Withdraw</h5>
+                        <h2>$<span>00</span></h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="show-balance style-box">
+                        <h5>Balance</h5>
+                        <h2>$<span>1240</span></h2>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="input-area py-3">
+                        <h5>Deposit</h5>
+                        <input type="text" placeholder="$ amount you want to deposit" class="form-control">
+                        <br>
+                        <button class="btn btn-success" id="deposit-btn">Deposit</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="input-area py-3">
+                        <h5>Withdraw</h5>
+                        <input type="text" placeholder="$ amount you want to Withdraw" class="form-control">
+                        <br>
+                        <button class="btn btn-success" id="login-enter">Withdraw</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

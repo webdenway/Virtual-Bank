@@ -1,0 +1,30 @@
+.form-area-style,
+.input-area {
+    box-shadow: 4px 3px 15px 2px gray;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+#transaction-area {
+    display: none;
+}
+
+.style-box {
+    padding: 20px;
+    border-radius: 10px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.show-deposit {
+    background-color: slateblue;
+}
+
+.show-withdraw {
+    background-color: salmon;
+}
+
+.show-balance {
+    background-color: orange;
+}
